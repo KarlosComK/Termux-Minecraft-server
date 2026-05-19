@@ -47,6 +47,6 @@ chmod +x playit-linux-armv7
 if the command to execute Playit work, you will need to setup it, to setup it, we will need to copy the claim agent link that playit generated, and copy it in a browser (like google chrome) and claim the agent (i dont remember how to dow this, so setup it alone).
 
 # Step 6
-When you end to setup playit, its hour to test if it works! to do this, run the Minecraft server in one session, and playit in other session. When you run the playit, it you generate a ip of your server, this ip is the address of your server! 
+When you end to setup playit, its hour to test if it works! to do this, run the Minecraft server in one session, and playit in other session. When you run the playit, it will generate a ip of your server, this ip is the address of your server! 
 
-# Congratulations, now you can play with friends!
+# Congratulations, now you can share the ip and play with friends!
