@@ -45,7 +45,7 @@ Make a folder for the server (replace the **server** text with the name of the f
 mkdir server
 ```
 ## Step 8
-Enter the directory by executing this command (notice you have replace de "server" with the name of the folder you created)
+Enter the directory by executing this command (notice you have replace the "server" with the name of the folder you created)
 ```bash
 cd server
 ```
