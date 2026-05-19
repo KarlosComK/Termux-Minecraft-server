@@ -16,10 +16,37 @@ cd server
 ```
 
 # Step 2
-When you enter the server directory, execute this command to install Playit.gg
+When you enter the server directory, execute this command to install Playit.gg if your device is 64bit
 ```bash
-wget https://github.com/playit-cloud/playit-agent/releases/download/v1.0.2/playit-linux-aarch64 (if you device is 64bit)
+wget https://github.com/playit-cloud/playit-agent/releases/download/v1.0.2/playit-linux-aarch64
 ``` 
-or
+or this command if you device is 32bit
 ```bash
-wget
+wget https://builds.playit.gg/1.0.3/playit-linux-armv7
+```
+
+# Step 3
+When the download of playitgg end, execute this command if your device is 64bit (if it dont work remove the "setup" name)
+```bash
+./playit-linux-aarch64 setup
+```
+or execute this command if your device is 32bit (if it **dont work** remove the "setup" name)
+```bash
+./playit-linux-armv7 setup
+```
+# Step 4
+if the commands above didn't work even removing the "setup" name, we need to give execution permissions for playit, to make this, we have to execute this command if your device is 64bit
+```bash
+chmod +x playit-linux-aarch64
+```
+or this command if your device is 32bit
+```bash
+chmod +x playit-linux-armv7
+```
+# Step 5
+if the command to execute Playit work, you will need to setup it, to setup it, we will need to copy the claim agent link that playit generated, and copy it in a browser (like google chrome) and claim the agent (i dont remember how to dow this, so setup it alone).
+
+# Step 6
+When you end to setup playit, its hour to test if it works! to do this, run the Minecraft server in one session, and playit in other session. When you run the playit, it you generate a ip of your server, this ip is the address of your server! 
+
+# Congratulations, now you can play with friends!
