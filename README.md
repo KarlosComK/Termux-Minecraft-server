@@ -64,8 +64,9 @@ When the server run for the first time, is normal it crash, bc you need to accep
 
 # Step 11
 Accept the EULA terms running this command
+```bash
 echo "eula=true" > eula.txt
-
+```
 # Congratulations!
 now you can run you server! to run you server, execute the command
 ```bash
