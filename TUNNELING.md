@@ -16,4 +16,10 @@ cd server
 ```
 
 # Step 2
-When you enter the server directory, execute this command to install Playitgg
+When you enter the server directory, execute this command to install Playit.gg
+```bash
+wget https://github.com/playit-cloud/playit-agent/releases/download/v1.0.2/playit-linux-aarch64 (if you device is 64bit)
+``` 
+or
+```bash
+wget
