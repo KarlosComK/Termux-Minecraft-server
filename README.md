@@ -1,8 +1,7 @@
 Hi! ins this guide, i will teach you how to make a Minecraft server on termux!
 
 # Requirements 
-a phone with at least 2gb of ram
-termux app from **FDroid**
+a phone with at least 2gb of ram and termux app from **FDroid**
 
 # Part 1
 
