@@ -7,11 +7,11 @@ a phone with at least 3gb of ram and termux app from **FDroid**
 
 you can execute my automatized script that i made, but i recommend you to manually make the server, BUT if you want to automate the things, just execute the commands:
 ```bash
-curl -sL https://github.com/KarlosComK/Termux-Minecraft-server/main/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -sL "https://raw.githubusercontent.com/KarlosComK/Termux-Minecraft-server/main/install.sh" -o install.sh && sh install.sh
 ```
 and
 ```bash
-curl -sL https://github.com/KarlosComK/Termux-Minecraft-server/main/setup-tunnel.sh" -o setup-tunnel.sh && chmod +x setup-tunnel.sh && ./setup-tunnel.sh
+curl -sL "https://raw.githubusercontent.com/KarlosComK/Termux-Minecraft-server/main/setup-tunnel.sh" -o setup-tunnel.sh && sh setup-tunnel.sh
 ```
 
 # Making manually a Minecraft server natively on termux:
