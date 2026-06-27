@@ -7,6 +7,10 @@ a phone with at least 3gb of ram and termux app from **FDroid**
 
 you can execute my automatized script that i made, but i recommend you to manually make the server, BUT if you want to automate the things, just execute the commands:
 ```bash
+curl -sL "https://raw.githubusercontent.com/KarlosComK/Termux-Minecraft-server/main/setup.sh" -o setup.sh && sh setup.sh
+```
+
+```bash
 curl -sL "https://raw.githubusercontent.com/KarlosComK/Termux-Minecraft-server/main/install.sh" -o install.sh && sh install.sh
 ```
 and
