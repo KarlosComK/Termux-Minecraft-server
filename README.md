@@ -48,7 +48,7 @@ now, if you want, make a dedicated server directory for the Minecraft server by 
 ```bash
 mkdir server
 ```
--# notice you can replace the server name with the name you want for the server directory
+notice you can replace the server name with the name you want for the server directory
 
 ## Step 4
 
@@ -56,7 +56,7 @@ now, download the official Minecraft jar server or a plugin loader/mod loader by
 ```bash
 wget (the link of the jar)
 ```
--# if the command above don't work, install wget with the command "pkg install wget" and try again
+if the command above don't work, install wget with the command "pkg install wget" and try again
 
 # Part 3 (finishing the server)
 
@@ -70,7 +70,7 @@ java -jar (name of the jar file)
 
 when you execute this command for the first time, its normal to the server crash because of the EULA, so lets accept the EULA by executing the command
 ```bash
-echo "eula:true" > eula.txt
+echo "eula=true" > eula.txt
 ```
 
 # Congratulations, now you have a dedicated Minecraft java server!
